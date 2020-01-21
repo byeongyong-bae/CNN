@@ -1,2 +1,2 @@
 # CNN
-cifar10 classification by cnn (tensorflow)
+cifar10 imamge classification by cnn (tensorflow)
