@@ -16,6 +16,9 @@ X x X 행렬을 Y x Y크기의 이미지 행렬과 곱해서 모두 거하는 �
 Convoultion에서 kernel의 종류에 따라 원본 image의 feature들이 다양하게 추출된다.   
    
 ## 2. Pooling   
+   
+![pooling](https://user-images.githubusercontent.com/59756209/74508927-a05bdf00-4f43-11ea-8f1b-209669d753b8.PNG)   
+   
 Pooling Layer는 차원을 축소하는 연산을 수행한다.   
 Pooling 종류에는 Max Pooling, Average Pooling, Min Pooling이 있다.   
 Max Pooling은 이미지의 X x X 크기 부분에서 가장 큰 값을 추출해서 원본 이미지의 X x X 개의 값을 1개의 값으로 축소합니다.   
