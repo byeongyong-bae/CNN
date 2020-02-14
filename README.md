@@ -11,4 +11,14 @@ CNN은 크게 Convolution Layer와 Pooling Layer으로 구성되어 있다.
    
 Convolution Layer는 Convolution 연산을 통해서 이미지의 특징을 추출한다.   
 합성곱, Kernel, filter, Window Size라고도 불립니다.   
+X x X 행렬을 Y x Y크기의 이미지 행렬과 곱해서 모두 거하는 수학 연산자이다.   
+행렬곱의 결과로 이미지의 행렬의 부분 값들은 모두 더해져 하나의 값으로 모아진다.   
+Convoultion에서 kernel의 종류에 따라 원본 image의 feature들이 다양하게 추출된다.   
+   
+## 2. Pooling   
+Pooling Layer는 차원을 축소하는 연산을 수행한다.   
+Pooling 종류에는 Max Pooling, Average Pooling, Min Pooling이 있다.   
+Max Pooling은 이미지의 X x X 크기 부분에서 가장 큰 값을 추출해서 원본 이미지의 X x X 개의 값을 1개의 값으로 축소합니다.   
+Average Pooling, Min Pooling은 각각 평균, 최소값으로 축사한다.   
+이미지의 차원을 축소함으로써 연산량을 감소시킬 수 있고, 이미지의 가장 강한 feature만을 extraction하는 feature extraction effect가 있다.   
 
