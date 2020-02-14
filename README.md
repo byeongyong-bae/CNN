@@ -26,4 +26,7 @@ Average Pooling, Min Pooling은 각각 평균, 최소값으로 축사한다.
 이미지의 차원을 축소함으로써 연산량을 감소시킬 수 있고, 이미지의 가장 강한 feature만을 extraction하는 feature extraction effect가 있다.   
    
 ## 3. Fully Connected   
+   
+![FCL](https://user-images.githubusercontent.com/59756209/74509365-a1414080-4f44-11ea-8618-0dd4d4d228dc.PNG)   
+   
 분류 문제이면, Pooling으로 축소된 값들을 Neural Network 구조인 Fully Connected Layer의 input으로 들어가서 Softmax 분류를 수행하게 된다.   
